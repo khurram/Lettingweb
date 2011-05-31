@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#counter {
+margin-top:5px;
+}
+
+#resultwrapper #moredetailbutton {
+text-align:left;
+}
+
+#availability {
+padding-top:0px;
+padding-bottom:2px;
+}
+
+#listingheader{
+	margin-left: 0px;
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#gallery li {
+border:1px solid #c70000;
+}
+
+#listingheader {
+margin-top:5px;
+margin-left: 15px;
+}
+
+#virtualtourbutton {
+margin-bottom:10px;
+width:262px;
+}
+
+p#vtourp {
+width:263px;
+}
+
+#features{
+margin:0;
+}
+
+#backlink input {
+margin-left: -20px;
+}
+
+#imagewrapper{
+margin-left:365px;
+}
+

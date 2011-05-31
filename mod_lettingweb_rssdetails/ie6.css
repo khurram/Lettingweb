@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#contentwrapper {
+float:right;
+width:668px;
+display:inline-block;
+overflow-x:hidden;
+
+
+}
+
+#listing {
+width:668px;
+margin-left:-2px;
+}
+
+
+#imagewrapper{
+margin-left:365px;
+}
+
+#listingheader{
+margin-left:7px;
+margin-top:5px;
+}
+#clear1 {
+width:100%;
+max-width:647px;
+overflow:hidden;
+max-height:1px;
+}
+
+#features{
+width:320px;
+margin:0;
+}
+
+#specwrapper{
+width:340px;
+float:right;
+height:233px;
+}
+#mapwrapper{
+margin-left:5px;
+}
+
+#backlink input {
+margin-left: -20px;
+}
+#description2{
+margin-left:5px;
+}
+
+#gallery li {
+border:1px solid #c70000;
+}
+
+#buttons{
+margin-left:7px;
+	
+}
+
+
+#rentarea{
+padding-top:2px;
+	
+}

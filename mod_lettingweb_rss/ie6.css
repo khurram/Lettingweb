@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#content {
+width:668px;
+overflow-x:hidden;
+}
+
+#resultwrapper {
+margin-left:0px;
+}
+
+#infowrapper {
+margin-left:0px;
+}
+
+#resultwrapper {
+margin-left:10px;
+width:639px;
+margin-bottom:30px;
+}
+
+#greybar {
+margin-bottom:5px;
+}
+
+#resultwrapper #moredetailbutton {
+text-align:left;
+}
+
+#counter {
+margin-top:5px;
+}
+
+#image {
+position:relative;
+}
+
+#availability {
+padding-top:0px;
+padding-bottom:2px;
+position:absolute;
+bottom:25px;
+right:14px;
+}
