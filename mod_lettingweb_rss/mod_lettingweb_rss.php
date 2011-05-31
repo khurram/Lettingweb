@@ -1,7 +1,7 @@
 <?php
 /**
 * @Version 1.0
-* @Lettingweb Property Search
+* @Lettingweb RSS
 * @Author - Khurram Aslam
 * @Copyright 2010 - EWMultimedia Ltd
 */

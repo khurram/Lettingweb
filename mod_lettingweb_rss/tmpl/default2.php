@@ -48,13 +48,11 @@ $(document).ready(function(){
 });
 
 function previous(){
-	
 	new_page = parseInt($('#current_page').val()) - 1;
 	//if there is an item before the current active link run the function
 	if($('.active_page').prev('.page_link').length==true){
 		go_to_page(new_page);
 	}
-	
 }
 
 function next(){
@@ -63,8 +61,8 @@ function next(){
 	if($('.active_page').next('.page_link').length==true){
 		go_to_page(new_page);
 	}
-	
 }
+
 function go_to_page(page_num){
 	//get the number of items shown per page
 	var show_per_page = parseInt($('#show_per_page').val());
@@ -95,7 +93,7 @@ function go_to_page(page_num){
 	<?php 
 		foreach($items as $item){
 			modLettingwebRssHelper::getdetails($item, $params);
-	}	
+		}	
 	?>
 	</div>
 

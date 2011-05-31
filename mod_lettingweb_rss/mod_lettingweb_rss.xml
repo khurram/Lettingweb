@@ -25,7 +25,7 @@
   <version>1.0.0</version> 
   
   <!-- Description of what the module does -->
-  <description>Displays property listings using the Lettingweb API</description>
+  <description>Displays property listings using the Lettingweb API RSS Feed</description>
   
   <!-- Listing of all files that should be installed for the module to function -->
   <files>
@@ -41,11 +41,10 @@
   
   <!-- Optional parameters -->
   <params addpath="/modules/mod_lettingweb_rss/element">
-  <param name="agentid" type="text" default="" label="Agent ID" description="Enter the Agent's Lettingweb ID" />
-  <param name="detailspage" type="text" default="" label="Details Form Page Address" description="URL to the property details page" />
-  <param name="novirtual" type="text" default="" label="No Virtual Tour Page" description="URL to the virtual tour 404 page" />
-  <param name="noimage" type="text" default="" label="No image URL" description="URL to a default image if one doesn't exist" />
-  <param name="perpage" type="text" default="5" label="Properties per page" description="Enter the number of properties to display per property listing page" />
-  <param name="template" type="customtemplates" modulename="mod_lettingweb_rss" default="default" label="Template" description="Use this custom template file" />
+    <param name="agentid" type="text" default="" label="Agent ID" description="Enter the Agent's Lettingweb ID" />
+    <param name="detailspage" type="text" default="" label="Details Form Page Address" description="URL to the property details page" />
+    <param name="novirtual" type="text" default="" label="No Virtual Tour Page" description="URL to the virtual tour 404 page" />
+    <param name="noimage" type="text" default="" label="No image URL" description="URL to a default image if one doesn't exist" />
+    <param name="perpage" type="text" default="5" label="Properties per page" description="Enter the number of properties to display per property listing page" />
   </params>
 </install>
