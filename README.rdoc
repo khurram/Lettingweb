@@ -1,3 +1,9 @@
 = Lettingweb API Property Search
 
-I'll update this asap
+These two Joomla modules connect to the Lettingweb API to provide property results for agents who are listed with Lettingweb.
+
+They are an almost direct port from previous modules written in ASP and was developed with very little time, so while they are in production use across multiple live websites, there is not much in the way of error handling.
+
+== Usage instructions: 
+
+After placing both of these modules in the module directory, the agent's user id can be set in the Joomla administrator panel under the module's settings. The module can then be applied to a page and display the results of a property agent's listings.
